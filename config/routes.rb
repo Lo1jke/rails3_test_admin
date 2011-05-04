@@ -1,4 +1,6 @@
 Rails3TestAdmin::Application.routes.draw do
+  devise_for :users
+
   get "home/index"
 
   resources :comments

@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/sferik/rails_admin.git
+  revision: 11f5982a8c259876654a7cd82ffa05fff391eb2c
+  specs:
+    rails_admin (0.0.1)
+      builder (~> 2.1.0)
+      rails (~> 3.0.6)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -31,6 +39,10 @@ GEM
     arel (2.0.9)
     bcrypt-ruby (2.1.4-x86-mingw32)
     builder (2.1.2)
+    devise (1.3.4)
+      bcrypt-ruby (~> 2.1.2)
+      orm_adapter (~> 0.0.3)
+      warden (~> 1.0.3)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     fastercsv (1.5.4)
@@ -41,6 +53,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    orm_adapter (0.0.4)
     polyglot (0.3.1)
     rack (1.2.2)
     rack-mount (0.6.14)
@@ -73,12 +86,16 @@ GEM
       render_inheritable
       will_paginate (~> 3.0.pre2)
     tzinfo (0.3.26)
+    warden (1.0.4)
+      rack (>= 1.0)
     will_paginate (3.0.pre2)
 
 PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  devise
   rails (= 3.0.7)
+  rails_admin!
   sqlite3
   typus

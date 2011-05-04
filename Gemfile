@@ -9,6 +9,11 @@ gem 'sqlite3'
 
 gem 'typus' #admin panel
 
+#rails_admin
+gem 'devise' # Devise must be required before RailsAdmin
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+#end rails_admin
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
