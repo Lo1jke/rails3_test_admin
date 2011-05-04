@@ -1,0 +1,34 @@
+# Typus Models Configuration File
+#
+# Use the README file as a reference to customize settings.
+
+Comment:
+  fields:
+    default: name, context
+    form: name, context
+  order_by: 
+  relationships: 
+  filters: created_at
+  search: name
+  application: rails3_test_admin
+
+Post:
+  fields:
+    default: name, title, context
+    form: name, title, context
+  order_by: 
+  relationships: 
+  filters: created_at
+  search: name, title
+  application: rails3_test_admin
+
+User:
+  fields:
+    default: name, second_name, age
+    form: name, second_name, age
+  order_by: 
+  relationships: 
+  filters: created_at
+  search: name
+  application: rails3_test_admin
+
